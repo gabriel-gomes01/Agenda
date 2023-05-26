@@ -1,0 +1,17 @@
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.exe
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.deps.json
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.runtimeconfig.json
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.runtimeconfig.dev.json
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.dll
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.pdb
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.csproj.AssemblyReference.cache
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frmMenu.resources
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.csproj.GenerateResource.cache
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.AssemblyInfoInputs.cache
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.AssemblyInfo.cs
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.csproj.CoreCompileInputs.cache
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.dll
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.pdb
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.genruntimeconfig.cache
+D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frmInserirEditar.resources

@@ -15,7 +15,11 @@ namespace Agenda
         public frmMenu()
         {
             InitializeComponent();
+            //Mostra a versão do programa
             lbl_versao.Text = cl_geral.versao;
+
+            //Carrega os contatos do programas
+            cl_geral.ConstroiListaContato();
         }
 
         private void cmd_sair_Click(object sender, EventArgs e)

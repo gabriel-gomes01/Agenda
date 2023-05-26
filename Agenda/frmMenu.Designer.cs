@@ -91,6 +91,7 @@
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(384, 356);
+            ControlBox = false;
             Controls.Add(lbl_versao);
             Controls.Add(cmd_sair);
             Controls.Add(cmd_pesquisar);

@@ -144,6 +144,7 @@
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(462, 451);
+            ControlBox = false;
             Controls.Add(cmd_editar);
             Controls.Add(cmd_apagar);
             Controls.Add(label_numero_registros);
@@ -161,6 +162,7 @@
             Name = "frmInserirEditar";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "AGENDA - INSERIR/EDITAR";
+            Load += frmInserirEditar_Load;
             ResumeLayout(false);
             PerformLayout();
         }

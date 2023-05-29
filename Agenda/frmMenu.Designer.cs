@@ -65,6 +65,7 @@
             cmd_pesquisar.TabIndex = 2;
             cmd_pesquisar.Text = "Pesquisar";
             cmd_pesquisar.UseVisualStyleBackColor = true;
+            cmd_pesquisar.Click += cmd_pesquisar_Click;
             // 
             // cmd_sair
             // 

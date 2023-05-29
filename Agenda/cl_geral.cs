@@ -38,7 +38,7 @@ namespace Agenda
                 ficheiro.Dispose();
             }
         }
-        
+
         //======================================================================
         public static void GravarNovoRegistro(string nome, string numero)
         {

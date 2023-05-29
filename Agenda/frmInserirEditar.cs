@@ -10,6 +10,8 @@ namespace Agenda
 {
     public partial class frmInserirEditar : Form
     {
+        int indice;
+
         public frmInserirEditar()
         {
             InitializeComponent();
@@ -44,6 +46,10 @@ namespace Agenda
 
             label_numero_registros.Text = "Registros: " + lista_contatos.Items.Count;
 
+            //Bloqueia os botoes Apagar e editar
+            cmd_apagar.Enabled = false;
+            cmd_editar.Enabled = false;
+
         }
 
         //======================================================================
@@ -76,5 +82,32 @@ namespace Agenda
             text_numero.Text = "";
             text_numero.Focus();
         }
+
+        //======================================================================
+
+        private void lista_contatos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //seleciona um contato
+
+            //verifica se o indice é -1
+            if (lista_contatos.SelectedIndex == -1) return;
+
+            indice = lista_contatos.SelectedIndex;
+            cmd_apagar.Enabled = true;
+            cmd_editar.Enabled = true;
+        }
+
+        //======================================================================
+
+        private void cmd_apagar_Click(object sender, EventArgs e)
+        {
+            //remove da lista
+            cl_geral.LISTA_CONTATOS.RemoveAt(indice);
+
+            cl_geral.GravarFicheiro();
+
+            ConstroiLista();
+        }
+
     }
 }

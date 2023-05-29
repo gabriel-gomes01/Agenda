@@ -41,5 +41,18 @@ namespace Agenda
 
             formulario.ShowDialog();
         }
+
+        private void cmd_pesquisar_Click(object sender, EventArgs e)
+        {
+            frm_Texto f = new frm_Texto();
+            f.ShowDialog();
+
+            if (f.cancelado) return;
+
+            //abre o quadro de resultado de pesquisa
+            frm_resultado ff = new frm_resultado(f.texto);
+            ff.ShowDialog();
+
+        }
     }
 }

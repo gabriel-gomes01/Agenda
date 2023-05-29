@@ -103,6 +103,7 @@
             lista_contatos.Name = "lista_contatos";
             lista_contatos.Size = new System.Drawing.Size(438, 199);
             lista_contatos.TabIndex = 7;
+            lista_contatos.SelectedIndexChanged += lista_contatos_SelectedIndexChanged;
             // 
             // label3
             // 
@@ -130,6 +131,7 @@
             cmd_apagar.TabIndex = 4;
             cmd_apagar.Text = "Apagar";
             cmd_apagar.UseVisualStyleBackColor = true;
+            cmd_apagar.Click += cmd_apagar_Click;
             // 
             // cmd_editar
             // 
@@ -139,6 +141,7 @@
             cmd_editar.TabIndex = 3;
             cmd_editar.Text = "Editar";
             cmd_editar.UseVisualStyleBackColor = true;
+            cmd_editar.Click += cmd_editar_Click;
             // 
             // frmInserirEditar
             // 

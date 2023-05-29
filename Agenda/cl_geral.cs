@@ -12,7 +12,7 @@ namespace Agenda
 
         //Lista contatos
         public static List<cl_contato> LISTA_CONTATOS;
-
+        //======================================================================
         public static void ConstroiListaContato()
         {
             //Carrega a lista de contatos
@@ -26,23 +26,44 @@ namespace Agenda
             if (File.Exists(nome_ficheiro))
             {
                 StreamReader ficheiro = new StreamReader(nome_ficheiro, Encoding.Default);
-               
+
                 while (!ficheiro.EndOfStream)
                 {
                     //carrega nome
                     string nome = ficheiro.ReadLine();
                     //carrega numero
                     string numero = ficheiro.ReadLine();
-
-                    //adicionar a lista de contato
-                    //cl_contato novo_contato = new cl_contato();
-                    //novo_contato.nome = nome;
-                    //novo_contato.numero = numero;
-                    //LISTA_CONTATOS.Add(novo_contato);
                     LISTA_CONTATOS.Add(new cl_contato() { nome = nome, numero = numero });
                 }
                 ficheiro.Dispose();
             }
+        }
+        
+        //======================================================================
+        public static void GravarNovoRegistro(string nome, string numero)
+        {
+            //grava na lista
+            LISTA_CONTATOS.Add(new cl_contato() { nome = nome, numero = numero });
+
+            //atualiza o ficheiro
+            GravarFicheiro();
+        }
+
+        //======================================================================
+        public static void GravarFicheiro()
+        {
+            //Verifica se existe a arquivo de contato
+            string pasta_documentos = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string nome_ficheiro = pasta_documentos + @"\ficheiro_contatos.txt";
+
+            StreamWriter sr = new StreamWriter(nome_ficheiro, false, Encoding.Default);
+
+            foreach (cl_contato contato in LISTA_CONTATOS)
+            {
+                sr.WriteLine(contato.nome);
+                sr.WriteLine(contato.numero);
+            }
+            sr.Dispose();
         }
     }
 }

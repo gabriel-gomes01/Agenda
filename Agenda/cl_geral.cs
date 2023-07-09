@@ -65,5 +65,25 @@ namespace Agenda
             }
             sr.Dispose();
         }
+
+        //===============================================================================================
+        public static cl_contato BuscaContato(int index)
+        {
+            var contato = LISTA_CONTATOS[index];
+            return contato;
+        }
+
+        //===============================================================================================
+
+        public static void InserirContatoLista(string nome, string numero, int index)
+        {
+            //Atualiza o registro na lista e na base de dados
+
+            var contato = new cl_contato() { nome = nome, numero = numero };
+
+            LISTA_CONTATOS[index].nome = nome;
+            LISTA_CONTATOS[index].numero = numero;
+            
+        }
     }
 }

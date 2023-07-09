@@ -17,3 +17,22 @@ D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\A
 D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frmInserirEditar.resources
 D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frm_resultado.resources
 D:\Programing\Projetos_C#\Estudo\YouTube\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frm_Texto.resources
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.csproj.AssemblyReference.cache
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frmInserirEditar.resources
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frmMenu.resources
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frm_resultado.resources
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.frm_Texto.resources
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.csproj.GenerateResource.cache
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.AssemblyInfoInputs.cache
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.AssemblyInfo.cs
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.dll
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.pdb
+C:\Users\gabri\Git Clones\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.exe
+C:\Users\gabri\Git Clones\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.deps.json
+C:\Users\gabri\Git Clones\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.runtimeconfig.json
+C:\Users\gabri\Git Clones\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.runtimeconfig.dev.json
+C:\Users\gabri\Git Clones\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.dll
+C:\Users\gabri\Git Clones\Agenda\Agenda\bin\Debug\netcoreapp3.1\Agenda.pdb
+C:\Users\gabri\Git Clones\Agenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.genruntimeconfig.cache

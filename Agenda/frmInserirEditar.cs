@@ -65,6 +65,14 @@ namespace Agenda
                 return;
             }
 
+            if (indice != -1)
+            {
+                cl_geral.InserirContatoLista(text_nome.Text, text_numero.Text, indice);
+                LimparDadosTextBox();
+                ConstroiLista();
+                return;
+            }
+
             foreach (cl_contato contato in cl_geral.LISTA_CONTATOS)
                 if (contato.nome == text_nome.Text && contato.numero == text_numero.Text)
                 {
@@ -78,6 +86,12 @@ namespace Agenda
             ConstroiLista();
 
             //novo registro
+            LimparDadosTextBox();
+
+        }
+
+        private void LimparDadosTextBox()
+        {
             text_nome.Text = "";
             text_numero.Text = "";
             text_numero.Focus();
@@ -109,5 +123,15 @@ namespace Agenda
             ConstroiLista();
         }
 
+        private void cmd_editar_Click(object sender, EventArgs e)
+        {
+            var contato = cl_geral.BuscaContato(lista_contatos.SelectedIndex);
+            text_nome.Text = contato.nome;
+            text_numero.Text = contato.numero;
+            indice = lista_contatos.SelectedIndex;
+            ConstroiLista();
+            cmd_gravar.Enabled = true;
+            text_nome.Focus();
+        }
     }
 }
